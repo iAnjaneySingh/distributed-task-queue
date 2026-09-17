@@ -6,7 +6,7 @@ runner from something you'd trust in production.
 
 ## What it handles
 
-- **At-least-once delivery** via blocking pop (`BRPOP`) from a Redis list
+- **At-least-once delivery** via blocking pop (`BRPOP`)from a Redis list
 - **Idempotency** — every job carries a `job_id` (or a caller-supplied
   `idempotency_key`); workers check a processed-set before running a handler,
   so re-delivery or duplicate enqueue never double-executes a job
