@@ -1,6 +1,6 @@
 # Distributed Task Queue
 
-A Redis-backed distributed task queue built from scratch in Python — no Celery,
+A Redis-backed distributed task queue built from scratch in Python no Celery,
 no RQ. Built to demonstrate the failure-handling that separates a toy job
 runner from something you'd trust in production.
 
